@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>🎂 Happy Birthday Ankit 🎉</title>
+
+<!-- Make it responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    body {
+        background: linear-gradient(135deg, #ffe6f2, #ffb3d9);
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+    .title {
+        font-size: 42px;
+        font-weight: bold;
+        color: #d6006c;
+        margin-top: 10px;
+    }
+    .cake {
+        font-size: 65px;
+        margin: 10px 0;
+        animation: pulse 1.2s infinite;
+    }
+    @keyframes pulse {
+        0%,100% { transform: scale(1); }
+        50% { transform: scale(1.15); }
+    }
+    .blow {
+        font-size: 24px;
+        margin: 15px 0;
+        font-weight: bold;
+        color: #e60073;
+    }
+    .note-container {
+        background: #fff;
+        border-radius: 15px;
+        padding: 18px;
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 1.6;
+        border: 2px dashed #d6006c;
+    }
+    audio {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #popup {
+        display: none;
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff0f5;
+        border: 4px solid #d6006c;
+        padding: 20px;
+        font-size: 24px;
+        color: #a30055;
+        border-radius: 15px;
+        z-index: 1000;
+    }
+</style>
+
+<script>
+    window.onload = function() {
+        setTimeout(function() {
+            document.getElementById('popup').style.display = 'block';
+        }, 5000); // 5 seconds
+    }
+</script>
+
+</head>
+<body>
+
+<div id="popup">
+    🎉 **Ankit — May All Your Dreams Come True!** 🎉
+</div>
+
+<div class="title">
+    🎉🎂 Happy Birthday Ankit! 🎂🎉
+</div>
+
+<div class="cake">🎂🕯️🎈</div>
+
+<!-- Background Music -->
+<audio controls autoplay loop>
+  <source src="https://orangefreesounds.com/wp-content/uploads/2016/08/Happy-birthday-instrumental.mp3" type="audio/mpeg">
+  Your browser doesn’t support audio.
+</audio>
+
+<div class="blow">
+    🕯️ *Blow the candle & make a wish!* 🕯️
+</div>
+
+<div class="note-container">
+    <strong>MERI JAAN,</strong><br><br>
+    I JUST WANTED TO SAY THANK YOU FOR GIVING ME A PIECE OF YOUR HEART.  
+    I COULD NOT ASK FOR ANYTHING BETTER IN THE ENTIRE WORLD.  
+    YOU ARE SO AMAZING IN EVERYTHING AND I LOVE YOU 💕<br><br>
+    THANK YOU FOR BEING MINE, FOR UNDERSTANDING ME, FOR YOUR EXISTENCE,  
+    FOR MAKING ME LAUGH, FOR TAKING CARE OF ME, FOR LOVING ME,  
+    FOR BEING MY PARTNER, FOR BEING MY HUMAN DIARY,  
+    FOR BEING MY UNPAID THERAPY.<br><br>
+    I LOVE YOU SO MUCH MAHARAJ.  
+    HOPE WE WILL ALWAYS BE TOGETHER.  
+    GOD BLESS YOU ALWAYS, MY PARTNER ❤️
+</div>
+
+</body>
+</html>
